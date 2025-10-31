@@ -2,7 +2,7 @@ import openai
 import time
 
 # 🔑 Set your API key
-openai.api_key = "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"
+openai.api_key = ""
 
 # 📁 Upload training and validation files
 train_file = openai.files.create(file=open("train_split.jsonl", "rb"), purpose="fine-tune")
@@ -42,5 +42,6 @@ response = openai.chat.completions.create(
     model=fine_tuned_model,
     messages=[{"role": "user", "content": "What is 7 × 8?"}]
 )
+
 
 print("\nModel response:", response.choices[0].message.content)
