@@ -1,1 +1,0 @@
-False. Commutative and associative properties are not true for division

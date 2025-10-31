@@ -1,4 +1,0 @@
-Solving: m=3m
-m=3
-Checking
-[nothing]
