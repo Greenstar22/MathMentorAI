@@ -1,1 +1,0 @@
-c can be equal to any number between 0 and 4, depending on the value of d

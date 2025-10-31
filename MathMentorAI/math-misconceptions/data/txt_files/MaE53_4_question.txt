@@ -1,2 +1,0 @@
-Solve mn=
-Where m=10 and n=13

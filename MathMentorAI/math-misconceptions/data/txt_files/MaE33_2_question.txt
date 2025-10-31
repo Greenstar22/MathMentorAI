@@ -1,2 +1,0 @@
-Solve for n:
-5n+12=3n+24
