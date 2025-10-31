@@ -2,7 +2,7 @@ import openai
 import json
 
 # 🔑 Replace with your actual API key
-openai.api_key = "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"
+openai.api_key = ""
 
 def test_api_key():
     try:
@@ -39,4 +39,5 @@ if __name__ == "__main__":
     file_id = test_file_upload()
     if file_id:
         print("\n🚀 Attempting to launch fine-tune...\n")
+
         test_finetune_launch(file_id)
