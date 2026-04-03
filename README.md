@@ -91,8 +91,13 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 
 
-# Citations
-All the files I used to create my math app, MathMentor
-AI. This includes the data files, the python scripts, and the original data.
-Feel free to use anything useful you find here, but make sure to correctly cite the following dataset, which I used, as well as mine:
-A Benchmark for Math Misconceptions: Bridging Gaps in Middle School Algebra with AI-Supported Instruction by Nancy Otero, Stefania Druga, and Andrew Lan.
+# References
+
+  - A. L. Nancy Otero, Stefania Druga, “A benchmark for math misconceptions:
+Bridging gaps in middle school algebra with ai-supported
+instruction,” https://arxiv.org/pdf/2412.03765v1, Dec. 2024, accessed:
+2025-7-22.
+
+  - Nancy Otero, Stefania Druga, Andrew Lan, “math-misconceptions,” https:
+//github.com/nancyotero-projects/math-misconceptions?tab=readme-ov-f
+ile#experimental-results, 2025, accessed: 2025-7-22.
