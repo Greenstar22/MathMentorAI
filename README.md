@@ -5,13 +5,13 @@ mathematics work. The system accepts a photographed solution,
 extracts text with OCR, queries WolframAlpha for a canonical
 solution, and runs a fine-tuned analysis model to produce structured
 JSON feedback: step comparisons, a core-misconception
-label, and topic-level scoring. This paper documents the system
+label, and topic-level scoring. This page documents the system
 design, the dataset curation and fine-tuning pipeline, implementation
 choices, limitations, and a fully specified reproducible
 classroom evaluation protocol.
 
 
-🚀 Features
+🚀 **Features**
 
   - Handwriting OCR: Extracts text and symbolic expressions from photographed math solutions. ​
   - Canonical Solution Lookup: Queries WolframAlpha for step-by-step solutions. ​
@@ -21,7 +21,7 @@ classroom evaluation protocol.
   - Reproducibility: Fully documented pipeline for dataset curation, fine-tuning, and classroom evaluation. ​
 
 
-🛠️ Technology Stack ​
+🛠️ **Technology Stack** ​
 
   - Frontend: TypeScript, Next.js (React) ​
   - Styling: Tailwind CSS, ShadCN/UI ​
@@ -32,10 +32,11 @@ classroom evaluation protocol.
   - Model Training: OpenAI GPT-4o-mini base model, fine-tuned on a supervised JSONL dataset ​
 
 
-📂 Repository Structure ​
+📂 **Repository Structure** ​
+TODO
 
 
-📖 How It Works
+📖 **How It Works**
 
   - Upload: Students upload a photo of their handwritten math work. ​
   - OCR: The system extracts text and symbolic expressions using OCR. ​
@@ -44,7 +45,7 @@ classroom evaluation protocol.
   - Feedback: The system generates structured JSON feedback, which is displayed to the student and stored in Firestore for progress tracking. ​
 
 
-📊 Evaluation Protocol ​
+📊 **Evaluation Protocol** ​
 A reproducible classroom evaluation protocol is provided to measure the system’s effectiveness. ​ Key metrics include:
 
   - OCR Accuracy: Character-level and token-level match percentages. ​
@@ -53,7 +54,7 @@ A reproducible classroom evaluation protocol is provided to measure the system�
   - Time-to-Feedback: Median and IQR. ​
 
 
-📈 Fine-Tuning Metadata ​
+📈 **Fine-Tuning Metadata** ​
 
   - Fine-tune job ID: ftjob-Wp1c5YNXWLQ16ntnKQ1yKwIx ​
   - Output model: ft:gpt-4o-mini-2024-07-18:personal:analysis:CVWRy0wx ​
@@ -66,7 +67,7 @@ A reproducible classroom evaluation protocol is provided to measure the system�
   - Runtime: 43 minutes ​
 
 
-📋 Limitations
+📋 **Limitations**
 
   - OCR Sensitivity: Messy handwriting or low-quality images may lead to extraction errors. ​
   - Solver Dependency: WolframAlpha may not provide step breakdowns for all problems. ​
@@ -74,7 +75,7 @@ A reproducible classroom evaluation protocol is provided to measure the system�
   - No User Testing Yet: Empirical validation is pending classroom trials. ​
 
 
-🔮 Future Work ​
+🔮 **Future Work**​
 
   - Editable OCR review step for students. ​
   - Improved fallbacks for problems without WolframAlpha step breakdowns. ​
@@ -85,7 +86,7 @@ A reproducible classroom evaluation protocol is provided to measure the system�
   - Integration with school LMS platforms. ​
 
 
-📜 License
+📜 **License**
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 
