@@ -83,7 +83,14 @@ A reproducible classroom evaluation protocol is provided to measure the system�
   - Expansion of teacher-annotated datasets. ​
   - Development of topic-specialized analysis models. ​
   - Randomized classroom trials to measure learning gains. ​
-  - Integration with school LMS platforms. ​
+  - Integration with school LMS platforms.
+
+
+**DEMO VIDEO**​
+
+
+https://github.com/user-attachments/assets/62c67858-a108-4cdf-9196-b30e489df36d
+
 
 
 📜 **License**
